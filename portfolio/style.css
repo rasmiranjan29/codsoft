@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100%;
+    
+    
+}
+.outer{
+    background-color: #222;
+    width: 100%;
+    height:100em;
+    font-family: Georgia, 'Times New Roman', Times, serif  ;
+
+}
+header{
+    width: 100%;
+    height:7em;
+    display: flex;
+    padding-top:1em ;
+
+}
+.name{
+    font-weight: 600;
+    font-size: 3em;
+    color: white;
+    width: 50%;
+    padding-left: 2em;
+    padding-top: .5em;
+    padding-left: 3em;
+    
+}
+.nav{
+    display: flex;
+    width:50em;
+    justify-content: space-around;
+    margin-right: 9em;
+    margin-left: 16em;
+    font-weight: 500;
+    font-size: 1.4em;
+    margin-top: 1.8em;
+    color: white;
+
+
+}
+.d{
+    margin-top: -.7em;
+    margin-bottom: 1.7em;
+    padding: 1em;
+    margin-left: -.4em;
+    border-radius: 40em;
+    padding-top: .6em;
+    
+    background-color: rgb(231, 51, 228);
+}
+.outer .name span{
+    color: red;
+}
+.banner{
+    width: 90%;
+    height: 40em;
+    margin: 5em;
+    display: flex;
+    margin-top: 3em;
+   
+}
+.bannera{
+    
+    padding-left: 2em;
+    padding-right: 5em;
+}
+.bannerb{
+    padding-left: 1.9em;
+
+}
+.bannerbtop{
+    color: yellow;
+    padding-left: 1.5em;
+    padding-top: 1em;
+    font-size: 2em;
+    font-weight: 700;
+     
+}
+.bannerbmiddle{
+    font-size: 5em;
+    font-weight: 800;
+    padding: .5em;
+    color: white;
+
+
+}
+.bannerbbtm{
+    display: flex;
+}
+.btma{
+    background-color: rgb(52, 59, 242);
+    margin-left: 1.2em;
+    font-size: 2em;
+    border-radius: 5em;
+    padding: .4em;
+    padding-left: .7em;
+    padding-right: .7em;
+    color: white;
+
+}
+.btma:hover{
+    background-color: orange;
+}
+.btmb{
+    color: white;
+    margin-left: 5em;
+    margin-top: 1em;
+    display: flex;
+    gap: 1.5em;
+}
+
