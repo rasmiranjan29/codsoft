@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    
+}
+.outer{
+    background-color: white;
+    width: 100%;
+    height:100em;
+    font-family: Arial, Helvetica, sans-serif ;
+
+}
+header{
+    width: 100%;
+    height:7em;
+    display: flex;
+    padding-top:.5em ;
+
+}
+.name{
+    font-weight: 800;
+    font-size: 3em;
+    color: black;
+    width: 50%;
+    padding-left: 2em;
+    padding-top: .5em;
+    padding-left: 3em;
+    
+}
+.nav{
+    display: flex;
+    width:50em;
+    justify-content: space-between;
+    margin-right: 7em;
+    margin-left: 16em;
+    font-weight: 500;
+    font-size: 1.4em;
+    margin-top: 1.8em;
+    color: black;
+
+
+}
+.d{
+    margin-top: -.7em;
+    margin-bottom: 1.7em;
+    padding: 1em;
+    margin-left: .4em;
+    border-radius: 40em;
+    padding-top: .6em;
+    
+    background-color: rgb(231, 51, 228);
+}
+.outer .name span{
+    color: red;
+}
+.contacttitle{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-weight:800;
+    font-size: 5em;
+}
+.ctitleunder{
+    display: flex;
+    justify-content: center;
+    background-color: #edebeb;
+    border-radius: 20px;
+    color: black;
+    width: 10em;
+    font-size: 1.5em;
+    margin-left: 27em;
+    margin-top: 1.3em;
+}
+.ctitleunder span{
+    color: #5e5757;
+}
+.c{
+    display: flex;
+}
+.ca{
+    width: 50%;
+    font-size: 4em;
+    font-weight: 800;
+    padding: 1em;
+    padding-right: 2em;
+
+}
+.ca span{
+
+    color: rgb(1, 115, 255);
+}
+textarea{
+    border-radius: 26px;
+    padding: 1em;
+    font-size: 1.5em;
+    max-width: 20em;
+    min-width: 20em;
+    max-height: 3em;
+    min-height: 3em;
+    background-color: transparent;
+    color: black;
+    margin: .5em;
+    overflow-x: hidden;
+}
+.ca img{
+    margin-top: .8em;
+    margin-left: 4em;
+}
+/* .submit{
+    background-color: orange;
+    font-size: 30px;
+    border: none;
+    padding: .4em;
+    text-align: center;
+    text-decoration: none;
+    width: 30%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+} */
